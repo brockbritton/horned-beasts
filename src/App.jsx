@@ -13,7 +13,6 @@ function App() {
   let [beast, setBeast] = useState(null);
   
   const showModal = obj => {
-    //not working because asynchoronous?
     setBeast(obj)
     setShow(true); 
   }
