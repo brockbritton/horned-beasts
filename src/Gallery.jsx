@@ -11,9 +11,7 @@ function Gallery(props) {
             return (
               <HornedBeast 
               key={obj._id}
-              title={obj.title} 
-              description={obj.description} 
-              imageUrl={obj.image_url} 
+              hb_object={obj} 
               onClick={props.onClick}/>  
             )
           })}

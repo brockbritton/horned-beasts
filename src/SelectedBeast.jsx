@@ -1,14 +1,16 @@
 
+import { title } from 'process';
 import { Modal } from 'react-bootstrap';
 
 function SelectedBeast(props) {
+    console.log(props.selectBeast)
     return (
         <Modal show={props.showBool} onHide={props.onHide}>
             <Modal.Header closeButton>
-            <Modal.Title>{props.selectBeast.title}</Modal.Title>
+            <Modal.Title> {props.selectBeast["title"]} </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <img src={props.selectBeast.image_url}></img>
+                <img ></img>
             </Modal.Body>
         </Modal>
     )
