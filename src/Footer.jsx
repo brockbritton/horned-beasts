@@ -1,7 +1,7 @@
 
 function Footer() {
     return (
-        <p> Brock Britton </p>
+        <p> Engineered by Brock Britton </p>
     )
 }
 
